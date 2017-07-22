@@ -1,5 +1,11 @@
-
 language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: iPG2o49/aDDrKuVUc7wBFB6y3VstOqKmeqQUnf8WSHRYfY8nbtJ8vff13a9FXU3UPpMD8a5CSOJvjWox5uOEn5o49lYD8q/mT1B1CJda5W0DRKTtGF+VgJxB+vRbSh6XMdrISdokCpCvMOF7ZjKU9pyTsqcI5my/lDo/C+cD/ezNy6W8ENPiwXf57jbivSMity/leJZqIaJKBASTOjZw55PnLYENnEVAgj6s5TaHOjxHpVcwRxLiwb/ZY82+X3dH48yLIHDZKsxeQbr+QR9fGrS0pHDXqPV6Dq/Cp81x3f7St/JwYPNuXbPl5gqBaF26HVC6Xg/1o+5EObqmfhc3eIjLWKiTNdCmDQDZsFJ/8saMcAJFMBOFUzLph2qWEd9XfcFFCm358N1S6rklzKwhmwMcPkWrP83XrMLBWJKc4PqwqabAxWAGY6i52A2y8nH16FdcvQjhQKgcYXBnep4jc1V8RgkP6Sz+ohttd6zTe2LTBvFnDIwwToUcbJiQmeSlUbJ5AUNnm8TT17d5l/SjJUx8DrjSetKLctYWfaVQKmuCcjgtaqRzLpf+mFr197AqNERGYdo3VHx4/j5RC8Ms+ze8xtpn2hj2vLMAhF/IWakE2JXIO38PwqkUzBOVPZUU43nyfq5Bzb2h4Tp07RDyGHD6f1lIzK/sqtlWPqfBMD4=
+    app: floating-reef-78221
+  on:
+    repo: DarcyDeAngeloWoolsey/blog-app-mongoose-challenge-solution
