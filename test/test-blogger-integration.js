@@ -197,7 +197,7 @@ describe('Blogs API resource', function () {
                         .send(updateData);
                 })
                 .then(function (res) {
-                    res.should.have.status(201);
+                    res.should.have.status(204);
 
                     return BlogPost.findById(updateData.id).exec();
                 })
